@@ -174,7 +174,7 @@ public class HomeActivity extends BaseActivity {
 				// TODO Auto-generated method stub
 				// Toast.makeText(HomeActivity.this, "点击生效", 1000).show();
 				if (position == 3) {
-					Toast.makeText(HomeActivity.this, "点击生效++++++++++++", 1000)
+					Toast.makeText(HomeActivity.this, "点击生效++++++++++++", Toast.LENGTH_SHORT)
 							.show();
 
 				}
@@ -193,7 +193,7 @@ public class HomeActivity extends BaseActivity {
 
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(HomeActivity.this, "头部点击事件", 1000).show();
+				Toast.makeText(HomeActivity.this, "头部点击事件", Toast.LENGTH_SHORT).show();
 
 			}
 		});
@@ -204,7 +204,7 @@ public class HomeActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(HomeActivity.this, "请输入昵称", 1000).show();
+				Toast.makeText(HomeActivity.this, "请输入昵称", Toast.LENGTH_SHORT).show();
 			}
 		});
 
